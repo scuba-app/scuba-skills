@@ -21,7 +21,7 @@ No local Scuba server is required. Each person signs in with their own Scuba acc
 **Codex** — register the marketplace and install Scuba:
 
 ```bash
-codex plugin marketplace add flashback2025/scuba-skills
+codex plugin marketplace add scuba-app/scuba-skills
 codex plugin add scuba@scuba
 ```
 
@@ -34,7 +34,7 @@ shown by your client when authenticating.
 **Claude Code** — run from the repository where you want engineering memory:
 
 ```bash
-claude plugin marketplace add flashback2025/scuba-skills
+claude plugin marketplace add scuba-app/scuba-skills
 claude plugin install scuba@scuba --scope project
 ```
 
@@ -157,7 +157,7 @@ For hosts without plugin support, or teams that already manage Scuba connections
 install just the portable [Agent Skills](https://agentskills.io/specification):
 
 ```bash
-npx skills add flashback2025/scuba-skills --skill scuba-setup scuba-codebase-memory scuba-review-memory
+npx skills add scuba-app/scuba-skills --skill scuba-setup scuba-codebase-memory scuba-review-memory
 ```
 
 Choose your agent and project scope. Alternatively, copy the three `skills/` directories

@@ -6,11 +6,11 @@ an authenticated connection. Reuse a working Scuba connector before adding a dup
 
 ## Plugin installation
 
-Prefer the Scuba plugin for Codex and Claude Code. It bundles both skills and the
-MCP connection. Register `flashback2025/scuba-skills` as a plugin marketplace, then
+Prefer the Scuba plugin for Codex and Claude Code. It bundles the skills and the
+MCP connection. Register `scuba-app/scuba-skills` as a plugin marketplace, then
 install `scuba@scuba` using the client's native plugin installer. For an existing
 team catalog, use that catalog's name instead. Follow the
-[public installation guide](https://github.com/flashback2025/scuba-skills#quick-start)
+[public installation guide](https://github.com/scuba-app/scuba-skills#quick-start)
 for client commands and shared team configuration.
 
 If the plugin is already installed, inspect its enabled state and its MCP connection

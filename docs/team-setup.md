@@ -14,7 +14,7 @@ Merge these entries into the adopting repository's `.claude/settings.json`:
     "scuba": {
       "source": {
         "source": "github",
-        "repo": "flashback2025/scuba-skills",
+        "repo": "scuba-app/scuba-skills",
         "ref": "main"
       }
     }
@@ -53,7 +53,7 @@ For a repository-owned catalog, merge an entry into
       "name": "scuba",
       "source": {
         "source": "url",
-        "url": "https://github.com/flashback2025/scuba-skills.git"
+        "url": "https://github.com/scuba-app/scuba-skills.git"
       },
       "policy": {
         "installation": "AVAILABLE",
